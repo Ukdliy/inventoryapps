@@ -1,1 +1,8 @@
+//Jumlah Barang//
 COUNT(SELECT(data barang[kode],[kode barang]=[kode]))
+
+//List Data//
+SELECT(data barang[nama barang],[kode barang]=[kode])
+
+//Spreadsheet Arrayformula//
+{"KONDISI BAIK";Arrayformula(SUBSTITUTE(G2:G;", ";CHAR(10)))}

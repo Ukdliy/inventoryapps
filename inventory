@@ -1,0 +1,1 @@
+COUNT(SELECT(data barang[kode],[kode barang]=[kode]))
